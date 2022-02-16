@@ -1734,7 +1734,7 @@ ul {
   color: $visited_link_color;
 }
 
-.article-body code {
+.article-body :not(pre) > code {
   background: darken($background_color, 3%);
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -2189,7 +2189,7 @@ ul {
   color: $visited_link_color;
 }
 
-.comment-body code {
+.comment-body :not(pre) > code {
   background: darken($background_color, 3%);
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -2761,7 +2761,7 @@ ul {
   color: $visited_link_color;
 }
 
-.post-body code {
+.post-body :not(pre) > code {
   background: darken($background_color, 3%);
   border: 1px solid #ddd;
   border-radius: 3px;
