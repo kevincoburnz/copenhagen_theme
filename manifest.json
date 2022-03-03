@@ -1,7 +1,7 @@
 {
-  "name": "Copenhagen",
-  "author": "Zendesk",
-  "version": "2.13.7",
+  "name": "z3nkmctest1 Copenhagen",
+  "author": "Kevin Coburn",
+  "version": "1.0.0",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
